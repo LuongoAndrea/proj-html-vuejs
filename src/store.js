@@ -208,17 +208,20 @@ export const store = reactive({
                 {
                     title: 'emergenscy care',
                     img:'src/assets/images/wave-divider',
-                    paragraph:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eligendi nesciunt minima quibusdam at corrupti.'
+                    paragraph:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eligendi nesciunt minima quibusdam at corrupti.',
+                    class: 'primo'
                 },
                 {
                     title: 'expert diagnostics',
                     img:'src/assets/images/wave-divider',
-                    paragraph:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eligendi nesciunt minima quibusdam at corrupti.'
+                    paragraph:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eligendi nesciunt minima quibusdam at corrupti.',
+                    class: 'secondo'
                 },
                 {
                     title: 'superb rehabilitation',
                     img:'src/assets/images/wave-divider',
-                    paragraph:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eligendi nesciunt minima quibusdam at corrupti.'
+                    paragraph:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi eligendi nesciunt minima quibusdam at corrupti.',
+                    class: 'terzo'
                 }
             ]
         },

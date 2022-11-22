@@ -28,15 +28,7 @@ li{
      transform: translate(0,-100%);
     }
  }
-button{
-    padding: 10px 20px;
-    text-transform: uppercase;
-}
-button.blue{
-    border: none;
-    background-color: $blue-light;
-    color: $white;
-}
+
 .al-container{
     padding: 0 25%;
 }
@@ -50,4 +42,20 @@ section{
     span, p{
         line-height: 40px;
     }
+}
+
+// btn
+button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+button.blue{
+    border: none;
+    background-color: $blue-light;
+    color: $white;
+}
+button.transparent{
+    border: 2px solid $white;
+    background-color: $transparent;
+    color: $white;
 }
