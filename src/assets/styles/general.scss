@@ -11,6 +11,7 @@ $fa-font-path: './webfonts';
 // @import '@fortawesome/fontawesome-free/scss/solid.scss';
 body{
     font-family: 'Roboto', sans-serif;
+    color: $text;
 }
 a{
     text-decoration: none;
@@ -40,7 +41,7 @@ button.blue{
     padding: 0 25%;
 }
 section{
-    padding: 80px 0;
+    padding: 150px 0;
 }
 section:nth-child(2){
     background-color: $section-2;

@@ -163,32 +163,32 @@ export const store = reactive({
                 {
                     img:'src/assets/images/icon-14',
                     title:'reabilitation station',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
+                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis'
                 },
                 {
                     img:'src/assets/images/icon-15',
                     title:'dental implants',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
+                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis'
                 },
                 {
                     img:'src/assets/images/icon-16',
                     title:'medicina reserch',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
+                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis'
                 },
                 {
                     img:'src/assets/images/icon-11',
                     title:'blood bank',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
+                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis'
                 },
                 {
                     img:'src/assets/images/icon-12',
                     title:'pharmaceutical adivice',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
+                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis'
                 },
                 {
                     img:'src/assets/images/icon-13',
                     title:'medical counseling',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
+                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis'
                 },
             ]
         },
@@ -200,38 +200,7 @@ export const store = reactive({
             br: 'src/assets/images/image',
             imgPlay: 'src/assets/images/play-icon',
             // br: 'none',
-            cards:[
-                {
-                    img:'src/assets/images/icon-14',
-                    title:'reabilitation station',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
-                },
-                {
-                    img:'src/assets/images/icon-15',
-                    title:'dental implants',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
-                },
-                {
-                    img:'src/assets/images/icon-16',
-                    title:'medicina reserch',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
-                },
-                {
-                    img:'src/assets/images/icon-11',
-                    title:'blood bank',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
-                },
-                {
-                    img:'src/assets/images/icon-12',
-                    title:'pharmaceutical adivice',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
-                },
-                {
-                    img:'src/assets/images/icon-13',
-                    title:'medical counseling',
-                    paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, at tempore vel saepe ducimus eligendi! Ex voluptates omnis cum quibusdam!'
-                },
-            ]
+            
         },
         // quinta section
         {
