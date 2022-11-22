@@ -229,7 +229,7 @@ export const store = reactive({
         {
             title:'make an appointment',
             br: 'src/assets/images/image',
-            paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus possimus vitae soluta quam cumque! Veniam, iure saepe. Obcaecati, consequatur aperiam?'
+            paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit. Doloribus possimus vitae soluta quam cumque! Veniam, iure saepe. Obcaecati, consequatur aperiam?'
         },
         // settima section
         {

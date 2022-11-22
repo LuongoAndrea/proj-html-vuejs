@@ -10,6 +10,7 @@
         <SectionThree/>
         <SectionFour/>
         <SectionFive/>
+        <FormComponent/>
     </main>
 </template>
 
@@ -22,6 +23,8 @@ import SectionTwo from './components/SectionTwo.vue';
 import SectionThree from './components/SectionThree.vue';
 import SectionFour from './components/SectionFour.vue';
 import SectionFive from './components/SectionFive.vue';
+import FormComponent from './components/FormComponent.vue';
+
 
 
     export default {
@@ -33,6 +36,7 @@ import SectionFive from './components/SectionFive.vue';
     SectionThree,
     SectionFour,
     SectionFive,
+    FormComponent,
 },
 data() {
     return {

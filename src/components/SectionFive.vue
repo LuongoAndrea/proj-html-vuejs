@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center white">
+    <div class="text-center white overflow-hidden">
         <div class="row">
             <div v-for="(item,index) in store.section[4].cards" :class="'col-4 '+item.class">
                 <div>

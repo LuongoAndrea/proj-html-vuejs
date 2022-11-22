@@ -10,7 +10,7 @@
                         
                         <h2 class="text-capitalize">{{store.section[3].title}}</h2>
                         <div class="br">
-                            <img :src="'./'+store.section[3].br+'.png'" alt="">
+                            <img class="white" :src="'./'+store.section[3].br+'.png'" alt="">
                         </div>
                         
                         <p>{{store.section[3].paragraph}}</p>
@@ -52,5 +52,8 @@
         img{
             width: 50px;
         }
+    }
+    .white{
+        filter: invert(100%);
     }
 </style>
