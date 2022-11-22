@@ -27,6 +27,9 @@
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
+span, p{
+        line-height: 40px;
+    }
 .white{
     color: $white;
 }
