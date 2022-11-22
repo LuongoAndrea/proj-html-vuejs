@@ -28,9 +28,18 @@
                             </div>
                             
                             <p>{{item.paragraph}}</p>
-                            <div>
+                            <div class="d-flex">
                                 <div v-for="(item, index) in item.social">
-                                    <span><i :class="'fa-brands '+item"></i></span>
+                                    <!-- <span><a :href="item.link"><i :class="'fa-brands '+item.social"></i></a></span> -->
+                                    <div v-if="item.social === 'fa-facebook-f'" class="social facebook">
+                                        <span><a :href="item.link"><i :class="'fa-brands '+item.social"></i></a></span>
+                                    </div>
+                                    <div v-else-if="item.social === 'fa-twitter'" class="social twitter">
+                                        <span><a :href="item.link"><i :class="'fa-brands '+item.social"></i></a></span>
+                                    </div>
+                                    <div v-else-if="item.social === 'fa-instagram'" class="social instagram">
+                                        <span><a :href="item.link"><i :class="'fa-brands '+item.social"></i></a></span>
+                                    </div>
                                 </div>
                             </div>
                             
@@ -54,8 +63,9 @@
             return {
                 store,
             }
-        }
+        },
     }
+
 </script>
 
 <style lang="scss" scoped>
@@ -69,6 +79,24 @@
         .card-text{
             background-color: $white;
             padding: 10px;
+        }
+    }
+    .facebook{
+            background-color: $facebook;
+        }
+        .instagram{
+            background-color: $insta;
+        }
+        .twitter{
+            background-color: $twitter;
+        }
+    .social{
+        padding: 0px 10px;
+        margin: 10px 10px 10px 0;
+        
+        a{
+            color: $white;
+            // color: black;
         }
     }
 </style>

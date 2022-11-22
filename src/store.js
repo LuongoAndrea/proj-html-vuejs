@@ -86,9 +86,21 @@ export const store = reactive({
                     profession:'anesthesiologist',
                     paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti officia explicabo dolorum!',
                     social:[
-                        'fa-facebook-f',
-                        'fa-twitter',
-                        'fa-instagram'
+                        {
+                            social:'fa-facebook-f',
+                            link:'#',
+                            class:'facebook'
+                        },
+                        {
+                            social:'fa-twitter',
+                            link:'#',
+                            class:'twitter'
+                        },
+                        {
+                            social:'fa-instagram',
+                            link:'#',
+                            class:'instagram'
+                        }
                     ]
                 },
                 {
@@ -97,9 +109,21 @@ export const store = reactive({
                     profession:'cardiologist',
                     paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti officia explicabo dolorum!',
                     social:[
-                        'fa-facebook-f',
-                        'fa-twitter',
-                        'fa-instagram'
+                        {
+                            social:'fa-facebook-f',
+                            link:'#',
+                            class:'facebook'
+                        },
+                        {
+                            social:'fa-twitter',
+                            link:'#',
+                            class:'twitter'
+                        },
+                        {
+                            social:'fa-instagram',
+                            link:'#',
+                            class:'instagram'
+                        }
                     ]
                 },
                 {
@@ -108,9 +132,21 @@ export const store = reactive({
                     profession:'nurse practitioner',
                     paragraph:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti officia explicabo dolorum!',
                     social:[
-                        'fa-facebook-f',
-                        'fa-twitter',
-                        'fa-instagram'
+                        {
+                            social:'fa-facebook-f',
+                            link:'#',
+                            class:'facebook'
+                        },
+                        {
+                            social:'fa-twitter',
+                            link:'#',
+                            class:'twitter'
+                        },
+                        {
+                            social:'fa-instagram',
+                            link:'#',
+                            class:'instagram'
+                        }
                     ]
                 }
             ]
