@@ -1,13 +1,14 @@
 @use './partials/variables' as *;
 
 ///   bootstrap e fontawesome
-$fa-font-path: '../webfonts';
+$fa-font-path: './webfonts';
+// @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '@fortawesome/fontawesome-free/scss/solid.scss';
 @import 'bootstrap/scss/bootstrap';
-
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+// @import '@fortawesome/fontawesome-free/scss/solid.scss';
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -17,9 +18,15 @@ a{
 li{
     list-style: none;
 }
-img{
-    width: 100%;
-}
+.br{
+    height: 2px;
+    margin: 20px 0;
+    img{
+     height: 100%;
+     width: 150px;
+     transform: translate(0,-100%);
+    }
+ }
 button{
     padding: 10px 20px;
     text-transform: uppercase;
@@ -31,4 +38,15 @@ button.blue{
 }
 .al-container{
     padding: 0 25%;
+}
+section{
+    padding: 80px 0;
+}
+section:nth-child(2){
+    background-color: $section-2;
+}
+section{
+    span, p{
+        line-height: 40px;
+    }
 }

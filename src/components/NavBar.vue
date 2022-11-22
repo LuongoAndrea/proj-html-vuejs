@@ -10,6 +10,7 @@
                         <li v-for="(item, index) in store.navUl" @click="activeLi(index)"><a :href="item.url" v-bind:class="{  active: store.navUl[index].isActive }" class="text-uppercase">{{item.name}}</a></li>
                     </ul>
                     <button class="blue">{{store.btn[0]}}</button>
+                    
                 </div>
             </div>
         </div>
@@ -54,7 +55,7 @@
         width: 100%;
         height: 80px;
         background-color: $transparent;
-        position: fixed;
+        position: absolute;
         padding: 20px 0;
         div{
             height: 100%;
