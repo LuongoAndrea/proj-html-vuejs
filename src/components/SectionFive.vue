@@ -35,7 +35,7 @@ span, p{
 }
 .primo{
     background-color: $blue-light;
-    padding: 4rem 2rem;
+    padding: 4rem 2rem 4rem 0;
 }
 .secondo{
     background-color: $blue;
@@ -43,6 +43,7 @@ span, p{
 }
 .terzo{
     background-color: $blue-strong;
-    padding: 4rem 2rem;
+    padding: 4rem 0 4rem 2rem;
+
 }
 </style>
