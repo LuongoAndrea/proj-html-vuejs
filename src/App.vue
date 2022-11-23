@@ -8,10 +8,10 @@
             <HeroAbout/>
         </div>
         <div v-else-if="store.index === 2">
-            <HeroHome/>
+            <HeroDepartment/>
         </div>
         <div v-else-if="store.index === 3">
-            <HeroHome/>
+            <HeroArticle/>
         </div>
     </header>
  
@@ -32,6 +32,7 @@
             <SectionFive/>
         </div>
         <div v-else-if="store.index === 3">
+            <FormComponent/>
             <SectionFive/>
         </div>
     </main>
@@ -56,6 +57,9 @@ import FormComponent from './components/FormComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import CopyrightComponent from './components/CopyrightComponent.vue';
 import SliderComponent from './components/SliderComponent.vue';
+import HeroDepartment from './components/HeroDepartment.vue';
+import HeroArticle from './components/HeroArticle.vue';
+
 
 
 
@@ -72,7 +76,9 @@ import SliderComponent from './components/SliderComponent.vue';
     FormComponent,
     FooterComponent,
     CopyrightComponent,
-    SliderComponent
+    SliderComponent,
+    HeroDepartment,
+    HeroArticle
 },
 data() {
     return {

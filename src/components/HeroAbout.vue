@@ -2,8 +2,8 @@
     <section class="d-flex align-items-center">
         <div class="container">
             <div class="hero">
-                <h1 class="text-capitalize">carling <span class="blue-text">for life</span></h1>
-                <p>Kind words can be short and easy to speack, but their echoes are truly endless. Avada Health focuses on you as if it was our own family</p>
+                <h1 class="text-capitalize">{{store.hero[store.index].title}} <span class="blue-text">{{store.hero[store.index].titleColor}}</span></h1>
+                <p>{{store.hero[store.index].p}}</p>
                 <button class="blue">{{store.btn[1]}}</button>
             </div>
         </div>

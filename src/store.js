@@ -62,6 +62,29 @@ export const store = reactive({
             class:'instagram'
         }
     ],
+    hero:[
+        {
+            title:'caring ',
+            titleColor:'for life',
+            p:'Kind words can be short and easy to speak, but their echoes are truly endless. Avada Health focuses on you as if it was our own family.'
+        },
+        {
+            title:'avada ',
+            titleColor:'health',
+            p:'Kind words can be short and easy to speak, but their echoes are truly endless.'
+        
+        },
+        {
+            title:'medical ',
+            titleColor:'departments',
+            p:'Kind words can be short and easy to speak, but their echoes are truly endless.'
+        },
+        {
+            title:'health ',
+            titleColor:'articles',
+            p:'Kind words can be short and easy to speak, but their echoes are truly endless.'
+        }
+    ],
     section:[
         // prima section
         {

@@ -13,7 +13,7 @@
 <script>
     import {store} from '../store';
     export default {
-        name:'HeroHome',
+        name:'HeroArticle',
         data() {
             return {
                 store,
@@ -24,19 +24,20 @@
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
-    section{
+section{
         color: $white;
-        background-image: url('./../assets/images/header-image-homepage.jpg');
-        
+        background-image: url('./../assets/images/article-photoaidcom-darken.jpg');
+        overflow: hidden;
         // background-position: center;
         background-size: cover;
         height: 82vh;
+
         .blue-text{
             color: $blue-light;
         }
         div.hero{
             width: 50%;
         }
-
+        
     }
 </style>
