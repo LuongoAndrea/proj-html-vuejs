@@ -4,13 +4,13 @@
         <div v-if="store.index === 0">
             <HeroHome/>
         </div>
-        <div v-if="store.index === 1">
+        <div v-else-if="store.index === 1">
             <HeroAbout/>
         </div>
-        <div v-if="store.index === 2">
+        <div v-else-if="store.index === 2">
             <HeroHome/>
         </div>
-        <div v-if="store.index === 3">
+        <div v-else-if="store.index === 3">
             <HeroHome/>
         </div>
     </header>
