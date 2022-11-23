@@ -1,4 +1,5 @@
 <template>
+    
     <nav>
         <div class="row g-0 text-center">
             <div class="col-12 d-flex justify-content-between">
@@ -7,7 +8,7 @@
                 </div>
                 <div class="d-flex">
                     <ul class="d-flex align-items-center">
-                        <li v-for="(item, index) in store.navUl" @click="activeLi(index)"><a :href="item.url" v-bind:class="{  active: store.navUl[index].isActive }" class="text-uppercase">{{item.name}}</a></li>
+                        <li v-for="(item, index) in store.navUl" @click="this.activeLi(index), this.pages(index)"><a :href="item.url" v-bind:class="{  active: store.navUl[index].isActive }" class="text-uppercase">{{item.name}}</a></li>
                     </ul>
                     <button class="blue">{{store.btn[0]}}</button>
                     
@@ -28,19 +29,20 @@
     },
     methods:{
         activeLi(i){
-            console.log('entro')
             for (let index = 0; index < store.navUl.length; index++) {
                 store.navUl[index].isActive=false
             }
             if(store.navUl[i].index == i){
                 store.navUl[i].isActive= true
-                console.log('if')
             }
             else{
                 store.navUl[i].isActive= false
-                console.log('else')
             }
-        }
+        },
+        pages(i){
+            store.index = i
+            console.log(store.index)
+        },
     }
     }
     

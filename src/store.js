@@ -2,8 +2,10 @@
 import { reactive } from "vue";
 
 export const store = reactive({
+    // pages index
+    index: 0,
+    // nav 
     logo: 'src/assets/images/medical_logo_2x_light',
-    
     navUl:[
         {
             name: 'home',
@@ -30,12 +32,14 @@ export const store = reactive({
             isActive: false
         },
     ],
+    // bottoni testo
     btn:[
         'make appointment',
         'learn more',
         'view our departments',
         'i accept'
     ],
+    // social azienda
     social:[
         {
             social:'fa-facebook-f',
@@ -286,4 +290,6 @@ export const store = reactive({
             copy:'© Copyright 2012 - 2022 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress'
         }
     ]
+
+
 })

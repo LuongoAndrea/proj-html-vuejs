@@ -5,16 +5,30 @@
     </header>
  
     <main>
-        <SectionOne/>
-        <SectionTwo/>
-        <SectionThree/>
-        <SectionFour/>
-        <SectionFive/>
-        <FormComponent/>
-        <SliderComponent/>
+        <div v-if="store.index === 0">
+            <SectionOne/>
+            <SectionTwo/>
+            <SectionThree/>
+            <SectionFour/>
+            <SectionFive/>
+            <FormComponent/>
+            <SliderComponent/>
+        </div>
+        <div v-else-if="store.index === 1">
+            <SectionTwo/>
+        </div>
+        <div v-else-if="store.index === 2">
+            <SectionFive/>
+        </div>
+        <div v-else-if="store.index === 3">
+            <SectionFive/>
+        </div>
+    </main>
+
+    <footer>
         <FooterComponent/>
         <CopyrightComponent/>
-    </main>
+    </footer>
 </template>
 
 <script>
