@@ -33,13 +33,30 @@ export const store = reactive({
     btn:[
         'make appointment',
         'learn more',
-        'view our departments'
+        'view our departments',
+        'i accept'
     ],
     social:[
-        'fa-facebook-f',
-        'fa-twitter',
-        'fa-instagram',
-        'fa-youtube'
+        {
+            social:'fa-facebook-f',
+            link:'#',
+            class:'facebook'
+        },
+        {
+            social:'fa-twitter',
+            link:'#',
+            class:'twitter'
+        },
+        {
+            social:'fa-instagram',
+            link:'#',
+            class:'instagram'
+        },
+        {
+            social:'fa-youtube',
+            link:'#',
+            class:'instagram'
+        }
     ],
     section:[
         // prima section
@@ -240,6 +257,33 @@ export const store = reactive({
                 'src/assets/images/client-logos-4',
 
             ]
+        }
+    ],
+    footer:[
+        {
+            img: 'src/assets/images/medical_logo_2x_dark',
+            paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolemue launti totam aperiam, eaque ipsa quae abillo. Invente veriatis et quasi architecto beatae luptatem accusantium, remaperiamsiat. Voluptatem accusest etsium doloremque laudaien. Lorem ipsum sits dolores ets unser.',
+            social: 'learn more about us'
+        },
+        {
+            title: 'contact information',
+            img: 'src/assets/images/image',
+            number:'1.800.458.556',
+            position:'121 king street, london united kingdom',
+            privacy:'For privacy reasons Google Maps needs your permission to be loaded.'
+        },
+        {
+            title:'medical departments',
+            options:[
+                'cardiology',
+                'pediatrics',
+                'diabetes care',
+                'pre-natal care',
+                'ultrasound echocardiogram'
+            ]
+        },
+        {
+            copy:'© Copyright 2012 - 2022 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress'
         }
     ]
 })

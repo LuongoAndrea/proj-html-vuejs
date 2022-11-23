@@ -30,9 +30,16 @@
                             </div>
                         </div>
                         <div class="row gx-5">
-                            <textarea class="formAl" placeholder="How can we help?" rows="3"></textarea>
+                            <div class="col">
+                                <textarea class="formAl" placeholder="How can we help?" rows="3"></textarea>
+                            </div>
                         </div>
-                        <button class="blue">{{store.btn[0]}}</button>
+                        <div class="row gx-5">
+                            <div class="col">
+                                <button class="blue">{{store.btn[0]}}</button>
+                            </div>
+                        </div>
+                       
                     </div>
                     
                 </div>
@@ -73,8 +80,14 @@ section{
         width: 100%;
         padding: 0.5rem;
         margin: 1rem;
+        transition: border-color 0.5s;
+    }
+    .formAl:hover{
+        border-color: $blue-light;
     }
     button{
         width: 100%;
+        position: relative;
+        left: 15px;
     }
 </style>

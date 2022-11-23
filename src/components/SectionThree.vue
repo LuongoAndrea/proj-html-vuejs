@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="al-container">
+        <div class="container">
             <div class="row g-0 text-center d-flex justify-content-center">
                 <div class="col-10">
                     <div class="header">
@@ -22,7 +22,7 @@
                             <img :src="'./'+item.img+'.png'" alt="">
                         </div>
                         <div class="card-text">
-                            <div>
+                            <div class="title">
                                 <span class="text-uppercase">{{item.title}}</span>
                             </div>
                             
@@ -58,6 +58,7 @@
 }
 .cards{
     padding: 15px;
+    cursor: pointer;
 }
 .img{
     // width: 80px;
@@ -73,5 +74,11 @@
     p{
         font-size: 0.8rem;
     }
+}
+.title{
+    transition: color 0.5s;
+}
+.cards:hover .title{
+    color: $blue-light;
 }
 </style>

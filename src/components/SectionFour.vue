@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="al-container">
+        <div class="container">
             <div class="row g-0 text-center d-flex justify-content-center">
                 <div class="col-10">
                     <div class="header">
@@ -52,6 +52,7 @@
         img{
             width: 50px;
         }
+        cursor: pointer;
     }
     .white{
         filter: invert(100%);

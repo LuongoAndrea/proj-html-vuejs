@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="al-container">
+        <div class="container">
             <div class="row g-0 text-center d-flex justify-content-center">
                 <div class="col-10">
                     <div>
@@ -17,13 +17,14 @@
                     </div>
                 </div>
                 <div class="d-flex"> 
-                    <div v-for="(item, inde) in store.section[1].cards" class="col-lg-4 cards">
-                        <div>
+                    <div v-for="(item, inde) in store.section[1].cards" class="col-lg-4 sium ">
+                    <div class=" cards">
+                        <div class="immagine">
                             <img :src="'./'+item.img+'.jpg'" alt="">
                         </div>
                         <div class="card-text">
                             <div>
-                                <span class="text-uppercase">{{item.name}}</span>
+                                <span class="text-uppercase">{{item.name}}</span><br>
                                 <span class="text-capitalize">{{item.profession}}</span>
                             </div>
                             
@@ -44,6 +45,8 @@
                             </div>
                             
                         </div>
+                    </div>
+                        
 
                         
                     </div>
@@ -70,33 +73,29 @@
 
 <style lang="scss" scoped>
 @use '../assets/styles/partials/variables' as *;
-    .cards{
-        padding: 10px;
+
+.sium{
+    padding: 30px;
+}
+.cards{
+        margin: 0 10px;
+        background-color: $white;
         
         img{
             width: 100%;
         }
         .card-text{
-            background-color: $white;
+            
             padding: 10px;
         }
     }
-    .facebook{
-            background-color: $facebook;
-        }
-        .instagram{
-            background-color: $insta;
-        }
-        .twitter{
-            background-color: $twitter;
-        }
-    .social{
-        padding: 0px 10px;
-        margin: 10px 10px 10px 0;
-        
-        a{
-            color: $white;
-            // color: black;
-        }
+    .immagine{
+        transition: box-shadow 0.2s;
+    }
+    .immagine:hover{
+        box-shadow: 10px  10px 5px #dedede,
+              -10px -10px 5px #dedede,
+               10px -10px 5px #dedede,
+              -10px  10px 5px #dedede;
     }
 </style>

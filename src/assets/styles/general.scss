@@ -11,7 +11,7 @@ $fa-font-path: './webfonts';
 // @import '@fortawesome/fontawesome-free/scss/solid.scss';
 body{
     font-family: 'Roboto', sans-serif;
-    color: $text;
+    color: $river-bed;
 }
 a{
     text-decoration: none;
@@ -54,9 +54,42 @@ button.blue{
     border: none;
     background-color: $blue-light;
     color: $white;
+    transition: background-color 0.5s;
+}
+button.blue:hover{
+    background-color: $blue-strong;
 }
 button.transparent{
     border: 2px solid $white;
     background-color: $transparent;
     color: $white;
+    transition: background-color 0.5s;
+}
+button.transparent:hover{
+    background-color: $white;
+    border: 2px solid $transparent;
+    color: $blue-light;
+}
+
+// social
+.facebook{
+    background-color: $facebook;
+}
+.instagram{
+    background-color: $insta;
+}
+.twitter{
+    background-color: $twitter;
+}
+.youtube{
+    background-color: $youtube;
+}
+.social{
+padding: 0px 10px;
+margin: 10px 10px 10px 0;
+cursor: pointer;
+a{
+    color: $white;
+    // color: black;
+}
 }

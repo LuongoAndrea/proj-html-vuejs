@@ -1,6 +1,6 @@
 <template>
     <section class="d-flex align-items-center">
-        <div class="al-container">
+        <div class="container">
             <div class="hero">
                 <h1 class="text-capitalize">carling <span class="blue-text">for life</span></h1>
                 <p>Kind words can be short and easy to speack, but their echoes are truly endless. Avada Health focuses on you as if it was our own family</p>
@@ -27,6 +27,7 @@
     section{
         color: $white;
         background-image: url('./../assets/images/header-image-homepage.jpg');
+        
         // background-position: center;
         background-size: cover;
         height: 82vh;
@@ -34,7 +35,7 @@
             color: $blue-light;
         }
         div.hero{
-            width: 60%;
+            width: 50%;
         }
 
     }

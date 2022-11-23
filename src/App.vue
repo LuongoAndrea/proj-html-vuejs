@@ -11,6 +11,9 @@
         <SectionFour/>
         <SectionFive/>
         <FormComponent/>
+        <SliderComponent/>
+        <FooterComponent/>
+        <CopyrightComponent/>
     </main>
 </template>
 
@@ -24,6 +27,9 @@ import SectionThree from './components/SectionThree.vue';
 import SectionFour from './components/SectionFour.vue';
 import SectionFive from './components/SectionFive.vue';
 import FormComponent from './components/FormComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
+import CopyrightComponent from './components/CopyrightComponent.vue';
+import SliderComponent from './components/SliderComponent.vue';
 
 
 
@@ -37,6 +43,9 @@ import FormComponent from './components/FormComponent.vue';
     SectionFour,
     SectionFive,
     FormComponent,
+    FooterComponent,
+    CopyrightComponent,
+    SliderComponent
 },
 data() {
     return {
