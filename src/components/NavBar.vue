@@ -54,6 +54,7 @@
         color: $blue-light;
     }
     nav{
+        z-index: 1000;
         width: 100%;
         height: 80px;
         background-color: $transparent;

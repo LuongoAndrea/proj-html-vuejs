@@ -1,7 +1,18 @@
 <template>
     <header>
         <NavBar/>
-        <HeroComponent/>
+        <div v-if="store.index === 0">
+            <HeroHome/>
+        </div>
+        <div v-if="store.index === 1">
+            <HeroAbout/>
+        </div>
+        <div v-if="store.index === 2">
+            <HeroHome/>
+        </div>
+        <div v-if="store.index === 3">
+            <HeroHome/>
+        </div>
     </header>
  
     <main>
@@ -34,7 +45,8 @@
 <script>
 import {store} from './store';
 import NavBar from './components/NavBar.vue';
-import HeroComponent from './components/HeroComponent.vue';
+import HeroHome from './components/HeroHome.vue';
+import HeroAbout from './components/HeroAbout.vue';
 import SectionOne from './components/SectionOne.vue';
 import SectionTwo from './components/SectionTwo.vue';
 import SectionThree from './components/SectionThree.vue';
@@ -50,7 +62,8 @@ import SliderComponent from './components/SliderComponent.vue';
     export default {
     components:{
     NavBar,
-    HeroComponent,
+    HeroHome,
+    HeroAbout,
     SectionOne,
     SectionTwo,
     SectionThree,

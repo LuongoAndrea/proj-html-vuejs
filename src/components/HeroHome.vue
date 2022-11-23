@@ -13,7 +13,7 @@
 <script>
     import {store} from '../store';
     export default {
-        name:'HeroComponent',
+        name:'HeroHome',
         data() {
             return {
                 store,
