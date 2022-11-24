@@ -2,7 +2,7 @@
     <div class="slider">
         <div class="container d-flex">
             <div v-for="(item,index) in store.section[6].img" class="col-lg-3">
-                <img :src="'./proj-html-vuejs/'+item+'.png'" alt="">
+                <img :src="'./'+item+'.png'" alt="">
             </div>
         </div>
     </div>
